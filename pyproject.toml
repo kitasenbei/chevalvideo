@@ -1,0 +1,9 @@
+[project]
+name = "chevalvideo"
+version = "0.1.0"
+description = "PyQt6 video power tool wrapping ffmpeg and yt-dlp"
+requires-python = ">=3.10"
+dependencies = ["PyQt6"]
+
+[project.scripts]
+chevalvideo = "chevalvideo.__main__:main"
