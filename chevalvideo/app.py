@@ -14,6 +14,13 @@ from chevalvideo.pages.download import DownloadPage
 from chevalvideo.pages.strip_meta import StripMetaPage
 from chevalvideo.pages.thumbnail import ThumbnailPage
 from chevalvideo.pages.gif import GifPage
+from chevalvideo.pages.merge import MergePage
+from chevalvideo.pages.watermark import WatermarkPage
+from chevalvideo.pages.speed import SpeedPage
+from chevalvideo.pages.rotate import RotatePage
+from chevalvideo.pages.subtitles import SubtitlesPage
+from chevalvideo.pages.audio_mix import AudioMixPage
+from chevalvideo.pages.batch import BatchPage
 
 
 PAGES = [
@@ -22,10 +29,17 @@ PAGES = [
     ("Extract Audio", ExtractAudioPage),
     ("Trim", TrimPage),
     ("Resize", ResizePage),
+    ("Speed", SpeedPage),
+    ("Rotate/Crop", RotatePage),
+    ("Merge", MergePage),
+    ("Watermark", WatermarkPage),
+    ("Subtitles", SubtitlesPage),
+    ("Audio Mix", AudioMixPage),
     ("Download", DownloadPage),
     ("Strip Meta", StripMetaPage),
     ("Thumbnail", ThumbnailPage),
     ("GIF", GifPage),
+    ("Batch", BatchPage),
 ]
 
 
